@@ -1,0 +1,49 @@
+DataSource
+https://www.kaggle.com/ronitf/heart-disease-uci#heart.csv
+
+age age in years
+sex(1 = male; 0 = female)
+cpchest pain type
+trestbps resting blood pressure (in mm Hg on admission to the hospital)
+chol serum cholestoral in mg/dl
+fbs  (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+restecg  resting electrocardiographic results
+thalach maximum heart rate achieved
+exang exercise induced angina (1 = yes; 0 = no)
+oldpeak  ST depression induced by exercise relative to rest
+slope  the slope of the peak exercise ST segment
+ca  number of major vessels (0-3) colored by flourosopy
+thal  3 = normal; 6 = fixed defect; 7 = reversable defect
+target 1 or 0
+---
+Age vs Chol
+Age vs Cpchest count
+-----------
+Install FLask
+>cmd
+C:\Users\scott\AppData\Local\Programs\Python\Python37-32\Scripts\pip install Flask
+-------
+To check Python is the PATH execute python.exe
+C:\Users\scott>python
+
+If python.exe is not in the path then go to control panel, select system and security > System.
+2. select advance system settings
+3. Environment variables
+4. Path in System Variables
+5. Click on Edit
+6. Add the path for Python.exe to the PATH variable.
+-------
+Command window
+Install virtual environment
+C:\Users\scott>pip install virtualenv
+--------Install virtualenvwrapper-win ----
+C:\Users\scott>pip install virtualenvwrapper-win called help
+-------------Create virtual environment called help
+C:\Users\scott>mkvirtualenv help
+---- install flask
+(help) C:\Users\scott\Helloworld>pip install flask
+------------
+cd C:\Users\scott\Desktop\USC WORK IN PROGRESS\final project\Previous Project
+workon finalproject
+setprojectdir .
+python plot.py
